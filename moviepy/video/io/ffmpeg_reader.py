@@ -90,6 +90,7 @@ class FFMPEG_VideoReader:
                ['-loglevel', 'error',
                 '-f', 'image2pipe',
                 '-vf', 'scale=%d:%d' % tuple(self.size),
+                '-vf', 'yadif=1:-1:1',
                 '-sws_flags', self.resize_algo,
                 "-pix_fmt", self.pix_fmt,
                 '-vcodec', 'rawvideo', '-'])
