@@ -102,12 +102,11 @@ with open('README.rst', 'r', 'utf-8') as f:
     readme = f.read()
 
 setup(
-    name='moviepy',
+    name='moviepy-AV',
     version=__version__,
-    author='Zulko 2017',
-    description='Video editing with Python',
+    description='Video editing with Python-AmperVue',
     long_description=readme,
-    url='https://zulko.github.io/moviepy/',
+    url='https://github.com/ampervue/moviepy.git',
     license='MIT License',
     classifiers=(
         'Development Status :: 5 - Production/Stable',
