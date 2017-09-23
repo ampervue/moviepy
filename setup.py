@@ -102,7 +102,7 @@ with open('README.rst', 'r', 'utf-8') as f:
     readme = f.read()
 
 setup(
-    name='moviepy-AV',
+    name='moviepyAV',
     version=__version__,
     description='Video editing with Python-AmperVue',
     long_description=readme,
